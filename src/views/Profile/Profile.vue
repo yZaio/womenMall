@@ -1,7 +1,5 @@
 <template>
-    <ul>
-			<li v-for="item in $store.state.cartList">{{item}}</li>
-		</ul>
+	<h2>页面还在开发中</h2>
 </template>
 
 <script>

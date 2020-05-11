@@ -43,7 +43,12 @@
 			})
     },
 		methods: {
-
+      isSelectAll() {
+        this.isChecked = !this.isChecked
+				for(var i = 0; i < this.$store.state.cartList.length;i++) {
+          this.$store.state.cartList[i].checked = this.isChecked
+				}
+			}
 		}
     // computed: {
     //   ...mapGetters([
